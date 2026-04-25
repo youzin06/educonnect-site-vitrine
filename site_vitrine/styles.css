@@ -169,6 +169,10 @@ body.dark .theme-toggle {
     color: var(--text-dark);
 }
 
+.btn-secondary:hover {
+    background: rgba(102, 126, 234, 0.12);
+}
+
 body.dark .btn-secondary {
     color: #e2e8f0;
     border-color: rgba(148, 163, 184, 0.35);
@@ -560,15 +564,15 @@ body.dark .stat-card {
     gap: 1rem;
 }
 
-.footer-socials {
-    display: flex;
-    gap: 1rem;
-}
-
 .footer-reps {
     color: #cbd5e1;
     font-size: 0.95rem;
-    margin-top: 0.45rem;
+    margin-top: 0.4rem;
+}
+
+.footer-socials {
+    display: flex;
+    gap: 1rem;
 }
 
 .footer-socials a {
