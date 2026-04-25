@@ -2,30 +2,35 @@ name: Deploy GitHub Pages
 
 on:
   push:
-    branches:
-      - main
-      - feature-js
+    branches: [main]
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
 
 jobs:
   deploy:
     runs-on: ubuntu-latest
-    permissions:
-      pages: write
-      id-token: write
-
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v4
-        with:
-          persist-credentials: false
+      - name: Checkout
+        uses: actions/checkout@v4          # ✅ v4
 
-      - name: Configure GitHub Pages
-        uses: actions/configure-pages@v4
+      - name: Setup Pages
+        uses: actions/configure-pages@v5   # ✅ v5
 
-      - name: Upload site artifact
-        uses: actions/upload-pages-artifact@v1
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3  # ✅ v3 (celui-ci est correct)
         with:
-          path: site_vitrine
+          path: './site_vitrine'
 
       - name: Deploy to GitHub Pages
-        uses: actions/deploy-pages@v1
+        id: deployment
+        uses: actions/deploy-pages@v4      # ✅ v4
