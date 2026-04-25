@@ -57,6 +57,10 @@ Pour voir le site dans ton navigateur :
 
 Ce site peut être publié sur GitHub Pages en utilisant le dossier `site_vitrine` comme contenu du site.
 
+### Déploiement automatique avec GitHub Actions
+
+Un workflow GitHub Actions peut publier automatiquement le contenu de `site_vitrine` chaque fois que tu pousses une branche spécifique (par exemple `feature-js` ou `main`). Le workflow déployera le site sur l'environnement GitHub Pages du dépôt.
+
 ### Commandes Git locales
 
 ```bash
@@ -68,6 +72,12 @@ git push origin <nom-de-ta-branche>
 
 > Si ta branche principale est `main`, utilise `git push origin main`.
 > Si ta branche est `feature-js`, utilise `git push origin feature-js`.
+
+### Ce qui se passe après le push
+
+1. Le workflow `.github/workflows/deploy_pages.yml` s’exécute.
+2. Il prend le dossier `site_vitrine` et le publie sur GitHub Pages.
+3. Le site est mis à jour automatiquement, généralement en quelques minutes.
 
 ## Contribution
 

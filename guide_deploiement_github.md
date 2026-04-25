@@ -64,11 +64,17 @@ git push origin feature-js
 5. Pour le dossier, choisis `/ (root)` si tu publies le contenu du dépôt entier, ou `site_vitrine` si tu veux déployer directement ce dossier. (Dans ton cas, le site est dans `site_vitrine`.)
 6. Clique sur `Save`.
 
-## Remarque
+## Déploiement automatique avec GitHub Actions
 
-Si GitHub Pages te demande un dossier, sélectionne `site_vitrine` pour que la page utilise directement le contenu du site.
+Pour que la mise à jour soit automatique à chaque push, utilise un workflow GitHub Actions. Ce workflow prend le contenu du dossier `site_vitrine` et le publie sur GitHub Pages sans autre intervention.
 
-## Mise à jour du site
+### Étapes pour l’automatisation
+
+1. Crée le fichier `.github/workflows/deploy_pages.yml` avec le contenu du workflow.
+2. Pousse ce fichier sur GitHub.
+3. À chaque nouveau commit poussé sur `feature-js` ou `main`, GitHub Actions publiera automatiquement le site.
+
+### Mise à jour du site
 
 À chaque modification, exécute :
 
