@@ -496,7 +496,7 @@ body.dark .form-input {
 }
 
 .section-light {
-    background: var(--bg-light);
+    background: #f3f7fb;
 }
 
 .section-dark {
@@ -507,6 +507,55 @@ body.dark .form-input {
 .section-head {
     max-width: 42rem;
     margin-bottom: 3rem;
+}
+
+.section-head p {
+    color: #334155;
+}
+
+.feature-card p,
+.pricing-card p,
+.pricing-card ul li {
+    color: #475569;
+}
+
+.pricing-card ul {
+    list-style: none;
+    padding: 0;
+    margin: 1rem 0 0;
+}
+
+.pricing-card ul li {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    margin-bottom: 0.9rem;
+    font-weight: 500;
+}
+
+.pricing-card ul li i {
+    color: var(--primary-color);
+    min-width: 18px;
+}
+
+.cta-card {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1.5rem;
+    padding: 2.5rem;
+    border-radius: 32px;
+    background: linear-gradient(135deg, rgba(124, 58, 237, 0.14), rgba(236, 72, 153, 0.12));
+    box-shadow: 0 24px 80px rgba(124, 58, 237, 0.08);
+}
+
+.cta-card h2 {
+    margin-bottom: 1rem;
+}
+
+.cta-card p {
+    max-width: 38rem;
+    color: #475569;
 }
 
 .section-label {
