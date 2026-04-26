@@ -738,6 +738,15 @@ body.dark .stat-card {
     color: #475569;
 }
 
+.contact-panel {
+    display: grid;
+    gap: 1.5rem;
+}
+
+.contact-panel .section-head {
+    margin-bottom: 1rem;
+}
+
 .form-note {
     margin-top: 1rem;
     font-size: 0.95rem;
@@ -753,23 +762,23 @@ body.dark .stat-card {
 }
 
 .contact-card {
-    min-height: 160px;
+    min-height: 140px;
 }
 
 .contact-info-grid {
     align-items: stretch;
 }
 
-@media (max-width: 960px) {
+@media (min-width: 960px) {
     .contact-section {
-        grid-template-columns: 1fr;
+        grid-template-columns: 1.3fr 1fr;
+        align-items: start;
     }
 }
 
-@media (min-width: 960px) {
+@media (max-width: 960px) {
     .contact-section {
-        grid-template-columns: 1fr 1.1fr;
-        align-items: start;
+        grid-template-columns: 1fr;
     }
 }
 
