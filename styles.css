@@ -765,8 +765,47 @@ body.dark .stat-card {
     min-height: 140px;
 }
 
+.contact-details-grid,
+.contact-overview-grid,
 .contact-info-grid {
-    align-items: stretch;
+    display: grid;
+    gap: 1.5rem;
+}
+
+.contact-details-grid {
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    margin-top: 2rem;
+}
+
+.contact-card-info {
+    display: grid;
+    gap: 1rem;
+    padding: 2rem;
+    min-height: 180px;
+    position: relative;
+}
+
+.contact-card-icon {
+    width: 48px;
+    height: 48px;
+    display: grid;
+    place-items: center;
+    border-radius: 16px;
+    background: rgba(124, 58, 237, 0.12);
+    color: var(--primary-color);
+    font-size: 1.1rem;
+}
+
+.contact-card-info h3 {
+    margin-bottom: 0.6rem;
+}
+
+.contact-card-info p {
+    color: #475569;
+}
+
+.highlight-card.contact-card-info {
+    background: linear-gradient(135deg, rgba(124, 58, 237, 0.12), rgba(236, 72, 153, 0.12));
 }
 
 @media (min-width: 960px) {
