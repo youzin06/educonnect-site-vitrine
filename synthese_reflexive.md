@@ -1,23 +1,32 @@
-# Synthèse Réflexive du Groupe : Projet EduConnect
+﻿# Synthèse Réflexive du Groupe : Projet Gestion Intelligente de la RH
 
 ## Introduction
 
-Ce document présente le bilan du projet **EduConnect**, une plateforme éducative collaborative. Il reflète le travail accompli par l'équipe composée de **Ayouba Cissé**, **Ache Khalil Ali Abbo**, **fallelhadj** et **Noble**.
+Ce document présente le bilan du projet **Gestion Intelligente de la RH**, une maquette de site vitrine destinée à valoriser une solution de gestion des ressources humaines.
+
+L'équipe est composée de **Ayouba Cissé**, **Ache Khalil Ali Abbo**, **fallelhadj** et **Noble**.
 
 ## Bilan de la Collaboration
 
-L'organisation de l'équipe a été le point fort de ce projet. Sous la direction de **Ayouba Cissé**, nous avons réussi à transformer une idée conceptuelle en un site vitrine fonctionnel et une planification structurée.
+La collaboration a été structurée autour de la création d'un site RH clair, professionnel et facile à présenter.
 
-### Répartition des Contributions :
-*   **Ayouba Cissé** a assuré la cohérence du projet et la gestion du planning.
-*   **Ache Khalil Ali Abbo** a apporté son expertise sur la structure des données et la logique métier.
-*   **fallelhadj** a réalisé un travail remarquable sur l'interface utilisateur et l'expérience visuelle.
-*   **Noble** a veillé à la qualité du code et à la documentation, assurant la pérennité du projet.
+### Répartition des Contributions
+* **Ayouba Cissé** a assuré la coordination globale, la définition du positionnement RH et la relecture du contenu.
+* **Ache Khalil Ali Abbo** a organisé les fonctionnalités RH et veillé à la cohérence métier du système.
+* **fallelhadj** a conçu l’interface visuelle, l’intégration HTML/CSS et la présentation des pages.
+* **Noble** a supervisé la qualité technique, le test des interactions et la mise à jour de la documentation.
 
 ## Apprentissages et Défis
 
-Le principal défi a été de coordonner les efforts de développement en un temps limité. L'utilisation de Trello a été cruciale pour ne pas perdre de vue les objectifs prioritaires. Nous avons appris l'importance de la communication asynchrone et de la rigueur dans l'utilisation de GitHub.
+Le principal défi a été de transformer un concept en un site vitrine professionnel et convaincant, en respectant un format adapté à une soutenance ou démonstration.
+
+Nous avons renforcé notre organisation par :
+* une communication claire entre les membres,
+* un suivi régulier des tâches,
+* des revues croisées du contenu et du design.
 
 ## Conclusion
 
-Le projet EduConnect n'est pas seulement une réussite technique, c'est aussi une réussite humaine. La synergie entre Ayouba, Ache, fallelhadj et Noble a permis de livrer un projet dont nous sommes fiers, prêt à être déployé et présenté.
+Le projet **Gestion Intelligente de la RH** illustre notre capacité à transformer une idée métier en un support de présentation solide.
+
+Cette synthèse montre que le groupe a su travailler de manière efficace et structurée, en alignant l’équipe sur une vision commune et un rendu final prêt à être partagé.

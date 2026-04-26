@@ -1,94 +1,108 @@
-# Planification du Projet : Plateforme Éducative (Format Trello)
+﻿# Planification du Projet : Site Vitrine RH Intelligente
 
-Ce document décrit la planification initiale du projet de plateforme éducative, structurée pour être facilement transposable sur Trello. Il inclut les listes principales, des exemples de cartes (tâches) avec des descriptions, des étiquettes et des membres assignés.
+Ce document présente une planification de projet adaptée à la création du site vitrine pour la solution **Gestion Intelligente de la RH**.
 
-## Membres de l'Équipe
+## Objectifs Principaux
 
-Pour une équipe de 4 personnes, voici une suggestion de répartition des rôles, qui pourra être affinée en fonction des compétences de chacun :
+* Présenter un projet RH solide et professionnel.
+* Expliquer le fonctionnement du système RH via des pages claires.
+* Rendre la démonstration facile à partager et à défendre.
 
-*   **Membre 1 : Chef de Projet / Product Owner**
-    *   Responsable de la vision globale, de la communication client, de la gestion des priorités et du suivi de l'avancement.
-*   **Membre 2 : Lead Développeur Frontend**
-    *   Responsable de l'architecture frontend, de l'intégration UI/UX, et du développement des interfaces utilisateur.
-*   **Membre 3 : Lead Développeur Backend / Base de Données**
-    *   Responsable de l'architecture backend, du développement des API, et de la gestion de la base de données.
-*   **Membre 4 : Développeur Fullstack / QA**
-    *   Supporte le développement frontend et backend, et est responsable des tests et de l'assurance qualité.
+## Membres de l’Équipe
 
-## Listes Trello Suggérées
+* **Ayouba Cissé** : Chef de Projet / Product Owner
+* **Ache Khalil Ali Abbo** : Responsable Produit / Fonctionnalités RH
+* **fallelhadj** : Lead Frontend / UI Designer
+* **Noble** : Développeur Fullstack / QA
 
-Voici les listes principales qui peuvent être créées sur Trello pour organiser le travail :
+## Listes Trello Recommandées
 
-1.  **Backlog Produit** : Toutes les fonctionnalités et améliorations envisagées.
-2.  **À Faire (Sprint Actuel)** : Tâches sélectionnées pour le sprint en cours.
-3.  **En Cours** : Tâches sur lesquelles les membres de l'équipe travaillent actuellement.
-4.  **En Revue / Tests** : Tâches terminées et en attente de validation ou de tests.
-5.  **Terminé** : Tâches validées et déployées (ou prêtes à l'être).
+1. **Backlog Produit** : Toutes les tâches et idées à réaliser.
+2. **À Faire** : Tâches prévues pour le sprint actuel.
+3. **En Cours** : Tâches en cours de réalisation.
+4. **En Revue / Tests** : Pages et contenus relus avant publication.
+5. **Terminé** : Travaux validés et prêts à être publiés.
 
-## Exemples de Cartes Trello (Tâches)
+## Exemples de Cartes Trello
 
-Chaque carte représente une tâche spécifique. Voici quelques exemples pour le démarrage du projet :
+### Backlog Produit
 
-### Liste : Backlog Produit
+* **Carte : Page Accueil RH**
+  * **Description** : Créer l'accueil du site vitrine présentant la solution de gestion RH intelligente.
+  * **Étiquettes** : `Frontend`, `Contenu`, `Priorité Haute`
+  * **Membres** : fallelhadj, Noble
+  * **Checklist** :
+    * Rédiger le titre et le texte d’introduction.
+    * Ajouter les éléments de bénéfice RH.
+    * Vérifier la mise en forme responsive.
 
-*   **Carte : Authentification Utilisateur (Inscription/Connexion)**
-    *   **Description** : Permettre aux utilisateurs de s'inscrire et de se connecter à la plateforme. Inclut la gestion des mots de passe oubliés.
-    *   **Étiquettes** : `Fonctionnalité`, `Priorité Haute`, `Backend`, `Frontend`
-    *   **Membres** : Membre 2, Membre 3
-    *   **Checklist** :
-        *   Conception de la base de données pour les utilisateurs
-        *   Développement de l'API d'inscription
-        *   Développement de l'API de connexion
-        *   Création des formulaires d'inscription et de connexion (UI)
-        *   Intégration des formulaires avec les APIs
-        *   Gestion des erreurs et messages d'information
+* **Carte : Page À propos du projet**
+  * **Description** : Présenter le contexte du projet RH, la mission et l’équipe.
+  * **Étiquettes** : `Contenu`, `Priorité Moyenne`
+  * **Membres** : Ayouba Cissé, Ache Khalil Ali Abbo
+  * **Checklist** :
+    * Expliquer la solution et son objectif.
+    * Inclure les rôles de l’équipe.
+    * Valider le contenu avec le chef de projet.
 
-*   **Carte : Création de Contenu Pédagogique (Cours)**
-    *   **Description** : Permettre aux administrateurs/professeurs de créer, éditer et publier des cours.
-    *   **Étiquettes** : `Fonctionnalité`, `Priorité Moyenne`, `Backend`, `Frontend`
-    *   **Membres** : Membre 1, Membre 2, Membre 3
-    *   **Checklist** :
-        *   Conception de la base de données pour les cours (titre, description, modules, leçons)
-        *   Développement de l'API de gestion des cours
-        *   Création de l'interface d'administration pour les cours
-        *   Intégration de l'interface avec les APIs
+* **Carte : Page Fonctionnalités**
+  * **Description** : Détailler les fonctionnalités du système RH pour le site vitrine.
+  * **Étiquettes** : `Frontend`, `Contenu`, `UX`
+  * **Membres** : Ache Khalil Ali Abbo, fallelhadj
+  * **Checklist** :
+    * Décrire les modules RH clés.
+    * Structurer le contenu en sections lisibles.
+    * Vérifier l’alignement avec le design.
 
-*   **Carte : Profil Utilisateur**
-    *   **Description** : Permettre aux utilisateurs de consulter et modifier leurs informations de profil (nom, email, mot de passe).
-    *   **Étiquettes** : `Fonctionnalité`, `Priorité Moyenne`, `Frontend`, `Backend`
-    *   **Membres** : Membre 2, Membre 3
+* **Carte : Page Contact / Équipe**
+  * **Description** : Mettre en place le formulaire de contact et la présentation des membres.
+  * **Étiquettes** : `Frontend`, `Contenu`, `Support`
+  * **Membres** : Noble, fallelhadj
+  * **Checklist** :
+    * Ajouter les coordonnées de contact.
+    * Présenter les membres avec leurs rôles.
+    * Tester le formulaire.
 
-### Liste : À Faire (Sprint Actuel)
+### À Faire
 
-*   **Carte : Initialisation du Projet GitHub**
-    *   **Description** : Mettre en place le dépôt GitHub, configurer les branches (main, dev, feature), et ajouter un fichier README initial.
-    *   **Étiquettes** : `Infrastructure`, `Priorité Haute`
-    *   **Membres** : Membre 1, Membre 4
-    *   **Checklist** :
-        *   Création du dépôt GitHub
-        *   Configuration des branches `main` et `dev`
-        *   Ajout d'un fichier `.gitignore`
-        *   Rédaction du README.md initial
+* **Carte : Mise à jour du README et de la documentation**
+  * **Description** : Aligner la documentation sur le projet RH Intelligente.
+  * **Membres** : Ayouba Cissé, Noble
+  * **Checklist** :
+    * Mettre à jour `README.md`.
+    * Mettre à jour `guide_deploiement_github.md`.
+    * Vérifier la cohérence des documents.
 
-*   **Carte : Conception de la Base de Données (Utilisateurs & Cours)**
-    *   **Description** : Définir le schéma de la base de données pour les entités `Utilisateur` et `Cours`.
-    *   **Étiquettes** : `Backend`, `Base de Données`, `Priorité Haute`
-    *   **Membres** : Membre 3
-    *   **Checklist** :
-        *   Définition des tables `users` et `courses`
-        *   Définition des champs et types de données
-        *   Établissement des relations entre les tables
-        *   Validation du schéma avec l'équipe
+* **Carte : Publication GitHub Pages**
+  * **Description** : Configurer et publier le site sur GitHub Pages.
+  * **Membres** : Noble
+  * **Checklist** :
+    * Vérifier le dépôt GitHub.
+    * Activer GitHub Pages.
+    * Tester l’URL de publication.
 
-*   **Carte : Mise en place de l'environnement de développement Frontend**
-    *   **Description** : Configurer l'environnement de développement pour le frontend (React/Vite/TailwindCSS).
-    *   **Étiquettes** : `Frontend`, `Infrastructure`, `Priorité Haute`
-    *   **Membres** : Membre 2
-    *   **Checklist** :
-        *   Initialisation du projet React avec Vite
-        *   Configuration de TailwindCSS
-        *   Mise en place d'un système de routage de base
+### En Cours
 
-### Liste : En Cours
+* **Carte : Tests d’affichage mobile**
+  * **Description** : Vérifier toutes les pages du site sur mobile et tablette.
+  * **Membres** : fallelhadj, Noble
+  * **Checklist** :
+    * Tester `index.html`, `about.html`, `courses.html`, `contact.html`.
+    * Ajuster le CSS si besoin.
+    * Valider le rendu final.
 
-*   *(Exemple : Carte 
+### Terminé
+
+* **Carte : Refonte du site en thème RH**
+  * **Description** : Mise à jour du contenu, des sections et du design pour le projet RH.
+  * **Membres** : Toute l’équipe
+  * **Checklist** :
+    * Contenu révisé.
+    * Design actualisé.
+    * Documents de support mis à jour.
+
+## Notes
+
+* La planification doit rester simple et lisible.
+* Prioriser les pages qui présentent directement le projet RH.
+* Garder une trace claire des tâches terminées et des tâches en attente.
