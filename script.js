@@ -1,4 +1,4 @@
-﻿const MOBILE_MENU_CLASS = 'show';
+const MOBILE_MENU_CLASS = 'show';
 
 function initMobileMenu() {
     const menuButton = document.querySelector('[data-menu-toggle]');
